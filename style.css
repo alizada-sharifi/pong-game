@@ -5,12 +5,10 @@ body {
   justify-content: center;
   font-family: "Courier New", Courier, monospace;
 }
-
 canvas {
   margin-top: 25px;
   z-index: 10;
 }
-
 .game-over-container {
   position: absolute;
   top: 50%;

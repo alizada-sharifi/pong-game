@@ -44,7 +44,7 @@ let isNewGame = true;
 function renderCanvas() {
   context.fillStyle = "black";
   context.fillRect(0, 0, width, height);
-  context.fillStyle = "white";
+  context.fillStyle = "#00BFFF";
   context.fillRect(paddleBottomX, height - 20, paddleWidth, paddleHeight);
   context.fillRect(paddleTopX, 10, paddleWidth, paddleHeight);
   context.beginPath();
